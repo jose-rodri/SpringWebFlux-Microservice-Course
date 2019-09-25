@@ -2,6 +2,7 @@ package jose.rodriguez.everis.peru.app.controllers;
 
 import java.net.URI;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.netflix.hystrix.HystrixCommands;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -13,6 +14,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.ribbon.proxy.annotation.Hystrix;
 import jose.rodriguez.everis.peru.app.models.document.Course;
 import jose.rodriguez.everis.peru.app.service.CourseService;
 import reactor.core.publisher.Flux;
@@ -34,6 +37,9 @@ public class CourseController {
   public Mono<ResponseEntity<Flux<Course>>> findAll() {
     return Mono.just(
         ResponseEntity.ok().contentType(MediaType.APPLICATION_JSON_UTF8).body(service.findAll()));
+    
+   
+   
   }
   
   /**
@@ -53,12 +59,19 @@ public class CourseController {
    * 
    * @return
    */
+  
+  
   @GetMapping("/{id}")
   public Mono<ResponseEntity<Course>> findById(@PathVariable String id) {
     return service.findById(id)
         .map(p -> ResponseEntity.ok().contentType(MediaType.APPLICATION_JSON_UTF8).body(p))
         .defaultIfEmpty(ResponseEntity.notFound().build());
+   
+ 
   }
+  
+
+  
   
   /**
    * . Método actualizar
