@@ -1,0 +1,978 @@
+27-09-2019 18:21:25.213 [restartedMain] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-09-2019 18:21:27.324 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+27-09-2019 18:21:27.416 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 85ms. Found 2 repository interfaces.
+27-09-2019 18:21:27.427 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+27-09-2019 18:21:27.452 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+27-09-2019 18:21:27.733 [restartedMain] WARN  o.s.boot.actuate.endpoint.EndpointId.logWarning - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+27-09-2019 18:21:27.768 [restartedMain] WARN  o.s.boot.actuate.endpoint.EndpointId.logWarning - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+27-09-2019 18:21:28.089 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=7732c652-89d3-3803-8534-14bdcef291d0
+27-09-2019 18:21:28.497 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7fe2f525] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+27-09-2019 18:21:30.475 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+27-09-2019 18:21:32.033 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+27-09-2019 18:21:32.113 [cluster-ClusterId{value='5d8e997cac185a3418979500', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:4}] to localhost:27017
+27-09-2019 18:21:32.123 [cluster-ClusterId{value='5d8e997cac185a3418979500', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5193888}
+27-09-2019 18:21:32.481 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+27-09-2019 18:21:33.435 [cluster-ClusterId{value='5d8e997aac185a34189794ff', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:5}] to localhost:27017
+27-09-2019 18:21:33.439 [cluster-ClusterId{value='5d8e997aac185a34189794ff', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3219684}
+27-09-2019 18:21:35.037 [restartedMain] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+27-09-2019 18:21:35.039 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+27-09-2019 18:21:35.105 [restartedMain] INFO  c.n.config.DynamicPropertyFactory.getInstance - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3c5f43a2
+27-09-2019 18:21:35.664 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+27-09-2019 18:21:35.967 [restartedMain] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+27-09-2019 18:21:35.968 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+27-09-2019 18:21:38.129 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+27-09-2019 18:21:38.263 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+27-09-2019 18:21:38.370 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+27-09-2019 18:21:38.372 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+27-09-2019 18:21:38.590 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+27-09-2019 18:21:38.591 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+27-09-2019 18:21:38.920 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+27-09-2019 18:21:39.600 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Disable delta property : false
+27-09-2019 18:21:39.601 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Single vip registry refresh property : null
+27-09-2019 18:21:39.602 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Force full registry fetch : false
+27-09-2019 18:21:39.603 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Application is null : false
+27-09-2019 18:21:39.604 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Registered Applications size is zero : true
+27-09-2019 18:21:39.605 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Application version is -1: true
+27-09-2019 18:21:39.606 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - Getting all instance registry info from the eureka server
+27-09-2019 18:21:39.923 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - The response status is 200
+27-09-2019 18:21:39.931 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.initScheduledTasks - Starting heartbeat executor: renew interval is: 30
+27-09-2019 18:21:39.937 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator.<init> - InstanceInfoReplicator onDemand update allowed rate per min is 4
+27-09-2019 18:21:39.955 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1569626499952 with initial instances count: 2
+27-09-2019 18:21:39.964 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application SPRING-COURSES with eureka with status UP
+27-09-2019 18:21:39.966 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.notify - Saw local status change event StatusChangeEvent [timestamp=1569626499966, current=UP, previous=STARTING]
+27-09-2019 18:21:39.971 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Documentation plugins bootstrapped
+27-09-2019 18:21:39.972 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_SPRING-COURSES/LIM-FLTWM72.usersad.everis.int:spring-courses:8081: registering service...
+27-09-2019 18:21:39.993 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.bootstrapDocumentationPlugins - Found 1 custom documentation plugin(s)
+27-09-2019 18:21:40.045 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_SPRING-COURSES/LIM-FLTWM72.usersad.everis.int:spring-courses:8081 - registration status: 204
+27-09-2019 18:21:40.080 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+27-09-2019 18:21:40.925 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_1
+27-09-2019 18:21:41.046 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_2
+27-09-2019 18:21:41.181 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_3
+27-09-2019 18:21:41.424 [restartedMain] INFO  o.s.b.w.e.netty.NettyWebServer.start - Netty started on port(s): 8081
+27-09-2019 18:21:41.429 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8081
+27-09-2019 18:21:42.812 [restartedMain] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.logStarted - Started SpringBootProyectoEverisCoursesApplication in 24.563 seconds (JVM running for 27.777)
+27-09-2019 18:21:43.269 [nioEventLoopGroup-2-3] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:4, serverValue:7}] to localhost:27017
+27-09-2019 18:21:43.282 [nioEventLoopGroup-2-2] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:3, serverValue:6}] to localhost:27017
+27-09-2019 18:21:43.388 [nioEventLoopGroup-2-4] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:5, serverValue:8}] to localhost:27017
+27-09-2019 18:21:43.411 [nioEventLoopGroup-2-5] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:6, serverValue:9}] to localhost:27017
+27-09-2019 18:21:43.426 [nioEventLoopGroup-2-6] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:7, serverValue:10}] to localhost:27017
+27-09-2019 18:21:44.348 [nioEventLoopGroup-2-6] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$1 - Modalidad  : listeningTeacher
+27-09-2019 18:21:44.354 [nioEventLoopGroup-2-4] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$1 - Modalidad  : student
+27-09-2019 18:21:44.357 [nioEventLoopGroup-2-5] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$1 - Modalidad  : listeningFamily
+27-09-2019 18:21:44.669 [nioEventLoopGroup-2-4] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$3 - insert : C#
+27-09-2019 18:21:44.675 [nioEventLoopGroup-2-3] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$3 - insert : Java
+27-09-2019 18:21:44.677 [nioEventLoopGroup-2-2] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$3 - insert : Ruby
+27-09-2019 18:21:44.681 [nioEventLoopGroup-2-6] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$3 - insert : Angular
+27-09-2019 18:21:44.683 [nioEventLoopGroup-2-5] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$3 - insert : Java
+27-09-2019 18:22:01.753 [nioEventLoopGroup-2-5] ERROR o.s.b.a.w.r.e.AbstractErrorWebExceptionHandler.error - [f8523086] 500 Server Error for HTTP GET "/api/everis/courses"
+org.springframework.data.mapping.MappingException: No property studentModality found on entity class jose.rodriguez.everis.peru.app.models.document.Modality to bind constructor parameter to!
+	at org.springframework.data.mapping.model.PersistentEntityParameterValueProvider.getParameterValue(PersistentEntityParameterValueProvider.java:68) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mapping.model.SpELExpressionParameterValueProvider.getParameterValue(SpELExpressionParameterValueProvider.java:49) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.extractInvocationArguments(ClassGeneratingEntityInstantiator.java:250) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.createInstance(ClassGeneratingEntityInstantiator.java:223) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator.createInstance(ClassGeneratingEntityInstantiator.java:84) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:274) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readValue(MappingMongoConverter.java:1493) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1391) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:380) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:297) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:277) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:196) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:192) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:80) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.ReactiveMongoTemplate$ReadDocumentCallback.doWith(ReactiveMongoTemplate.java:2893) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:100) ~[reactor-core-3.2.12.RELEASE.jar:3.2.12.RELEASE]
+	at com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68) ~[mongodb-driver-reactivestreams-1.9.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.onNext(AbstractSubscription.java:135) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.processResultsQueue(AbstractSubscription.java:203) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.tryProcessResultsQueue(AbstractSubscription.java:159) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:101) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:136) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:100) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription.requestMoreData(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:53) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:46) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.OperationExecutorImpl$1$1.onResult(OperationExecutorImpl.java:82) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.FindOperation$3.onResult(FindOperation.java:806) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.OperationHelper$ReferenceCountedReleasingWrappedCallback.onResult(OperationHelper.java:364) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.CommandOperationHelper$2.onResult(CommandOperationHelper.java:405) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServer$DefaultServerProtocolExecutor$2.onResult(DefaultServer.java:227) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandProtocolImpl$1.onResult(CommandProtocolImpl.java:85) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultConnectionPool$PooledConnection$1.onResult(DefaultConnectionPool.java:461) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.UsageTrackingInternalConnection$2.onResult(UsageTrackingInternalConnection.java:111) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:379) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:356) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:651) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:618) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.readAsync(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.access$1000(InternalStreamConnection.java:74) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:608) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:593) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.handleReadResponse(NettyStream.java:266) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.access$600(NettyStream.java:66) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:325) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:322) ~[mongodb-driver-core-3.8.2.jar:na]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_221]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.FluxMap] :
+	reactor.core.publisher.Flux.map(Flux.java:5734)
+	org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+Error has been observed by the following operator(s):
+	|_	Flux.map ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+	|_	Mono.flatMapMany ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	FluxMap$MapSubscriber.onNext ⇢ com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68)
+	|_	Flux.onErrorMap ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	Flux.collectList ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.map ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.doOnError ⇢ org.springframework.http.server.reactive.AbstractServerHttpResponse.writeWith(AbstractServerHttpResponse.java:188)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler.handleResult(ResponseEntityResultHandler.java:130)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.lambda$handleResult$5(DispatcherHandler.java:175)
+	|_	Mono.onErrorResume ⇢ org.springframework.web.reactive.DispatcherHandler.handleResult(DispatcherHandler.java:175)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.handle(DispatcherHandler.java:152)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.flatMap ⇢ org.springframework.boot.actuate.web.trace.reactive.HttpTraceWebFilter.filter(HttpTraceWebFilter.java:74)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.doOnSuccess ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.doOnError ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.compose ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:75)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+
+27-09-2019 18:22:27.596 [nioEventLoopGroup-2-5] ERROR o.s.b.a.w.r.e.AbstractErrorWebExceptionHandler.error - [5fe8f6d5] 500 Server Error for HTTP GET "/api/everis/courses"
+org.springframework.data.mapping.MappingException: No property studentModality found on entity class jose.rodriguez.everis.peru.app.models.document.Modality to bind constructor parameter to!
+	at org.springframework.data.mapping.model.PersistentEntityParameterValueProvider.getParameterValue(PersistentEntityParameterValueProvider.java:68) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mapping.model.SpELExpressionParameterValueProvider.getParameterValue(SpELExpressionParameterValueProvider.java:49) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.extractInvocationArguments(ClassGeneratingEntityInstantiator.java:250) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.createInstance(ClassGeneratingEntityInstantiator.java:223) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator.createInstance(ClassGeneratingEntityInstantiator.java:84) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:274) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readValue(MappingMongoConverter.java:1493) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1391) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:380) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:297) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:277) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:196) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:192) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:80) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.ReactiveMongoTemplate$ReadDocumentCallback.doWith(ReactiveMongoTemplate.java:2893) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:100) ~[reactor-core-3.2.12.RELEASE.jar:3.2.12.RELEASE]
+	at com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68) ~[mongodb-driver-reactivestreams-1.9.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.onNext(AbstractSubscription.java:135) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.processResultsQueue(AbstractSubscription.java:203) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.tryProcessResultsQueue(AbstractSubscription.java:159) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:101) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:136) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:100) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription.requestMoreData(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:53) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:46) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.OperationExecutorImpl$1$1.onResult(OperationExecutorImpl.java:82) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.FindOperation$3.onResult(FindOperation.java:806) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.OperationHelper$ReferenceCountedReleasingWrappedCallback.onResult(OperationHelper.java:364) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.CommandOperationHelper$2.onResult(CommandOperationHelper.java:405) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServer$DefaultServerProtocolExecutor$2.onResult(DefaultServer.java:227) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandProtocolImpl$1.onResult(CommandProtocolImpl.java:85) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultConnectionPool$PooledConnection$1.onResult(DefaultConnectionPool.java:461) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.UsageTrackingInternalConnection$2.onResult(UsageTrackingInternalConnection.java:111) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:379) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:356) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:651) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:618) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.readAsync(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.access$1000(InternalStreamConnection.java:74) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:608) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:593) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.handleReadResponse(NettyStream.java:266) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.access$600(NettyStream.java:66) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:325) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:322) ~[mongodb-driver-core-3.8.2.jar:na]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_221]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.FluxMap] :
+	reactor.core.publisher.Flux.map(Flux.java:5734)
+	org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+Error has been observed by the following operator(s):
+	|_	Flux.map ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+	|_	Mono.flatMapMany ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	FluxMap$MapSubscriber.onNext ⇢ com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68)
+	|_	Flux.onErrorMap ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	Flux.collectList ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.map ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.doOnError ⇢ org.springframework.http.server.reactive.AbstractServerHttpResponse.writeWith(AbstractServerHttpResponse.java:188)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler.handleResult(ResponseEntityResultHandler.java:130)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.lambda$handleResult$5(DispatcherHandler.java:175)
+	|_	Mono.onErrorResume ⇢ org.springframework.web.reactive.DispatcherHandler.handleResult(DispatcherHandler.java:175)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.handle(DispatcherHandler.java:152)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.flatMap ⇢ org.springframework.boot.actuate.web.trace.reactive.HttpTraceWebFilter.filter(HttpTraceWebFilter.java:74)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.doOnSuccess ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.doOnError ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.compose ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:75)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+
+27-09-2019 18:22:29.116 [nioEventLoopGroup-2-5] ERROR o.s.b.a.w.r.e.AbstractErrorWebExceptionHandler.error - [5fe8f6d5] 500 Server Error for HTTP GET "/api/everis/courses"
+org.springframework.data.mapping.MappingException: No property studentModality found on entity class jose.rodriguez.everis.peru.app.models.document.Modality to bind constructor parameter to!
+	at org.springframework.data.mapping.model.PersistentEntityParameterValueProvider.getParameterValue(PersistentEntityParameterValueProvider.java:68) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mapping.model.SpELExpressionParameterValueProvider.getParameterValue(SpELExpressionParameterValueProvider.java:49) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.extractInvocationArguments(ClassGeneratingEntityInstantiator.java:250) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.createInstance(ClassGeneratingEntityInstantiator.java:223) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator.createInstance(ClassGeneratingEntityInstantiator.java:84) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:274) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readValue(MappingMongoConverter.java:1493) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1391) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:380) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:297) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:277) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:196) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:192) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:80) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.ReactiveMongoTemplate$ReadDocumentCallback.doWith(ReactiveMongoTemplate.java:2893) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:100) ~[reactor-core-3.2.12.RELEASE.jar:3.2.12.RELEASE]
+	at com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68) ~[mongodb-driver-reactivestreams-1.9.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.onNext(AbstractSubscription.java:135) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.processResultsQueue(AbstractSubscription.java:203) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.tryProcessResultsQueue(AbstractSubscription.java:159) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:101) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:136) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:100) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription.requestMoreData(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:53) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:46) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.OperationExecutorImpl$1$1.onResult(OperationExecutorImpl.java:82) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.FindOperation$3.onResult(FindOperation.java:806) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.OperationHelper$ReferenceCountedReleasingWrappedCallback.onResult(OperationHelper.java:364) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.CommandOperationHelper$2.onResult(CommandOperationHelper.java:405) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServer$DefaultServerProtocolExecutor$2.onResult(DefaultServer.java:227) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandProtocolImpl$1.onResult(CommandProtocolImpl.java:85) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultConnectionPool$PooledConnection$1.onResult(DefaultConnectionPool.java:461) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.UsageTrackingInternalConnection$2.onResult(UsageTrackingInternalConnection.java:111) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:379) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:356) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:651) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:618) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.readAsync(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.access$1000(InternalStreamConnection.java:74) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:608) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:593) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.handleReadResponse(NettyStream.java:266) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.access$600(NettyStream.java:66) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:325) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:322) ~[mongodb-driver-core-3.8.2.jar:na]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_221]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.FluxMap] :
+	reactor.core.publisher.Flux.map(Flux.java:5734)
+	org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+Error has been observed by the following operator(s):
+	|_	Flux.map ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+	|_	Mono.flatMapMany ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	FluxMap$MapSubscriber.onNext ⇢ com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68)
+	|_	Flux.onErrorMap ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	Flux.collectList ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.map ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.doOnError ⇢ org.springframework.http.server.reactive.AbstractServerHttpResponse.writeWith(AbstractServerHttpResponse.java:188)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler.handleResult(ResponseEntityResultHandler.java:130)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.lambda$handleResult$5(DispatcherHandler.java:175)
+	|_	Mono.onErrorResume ⇢ org.springframework.web.reactive.DispatcherHandler.handleResult(DispatcherHandler.java:175)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.handle(DispatcherHandler.java:152)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.flatMap ⇢ org.springframework.boot.actuate.web.trace.reactive.HttpTraceWebFilter.filter(HttpTraceWebFilter.java:74)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.doOnSuccess ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.doOnError ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.compose ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:75)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+
+27-09-2019 18:23:32.935 [nioEventLoopGroup-2-5] ERROR o.s.b.a.w.r.e.AbstractErrorWebExceptionHandler.error - [5fe8f6d5] 500 Server Error for HTTP GET "/api/everis/courses"
+org.springframework.data.mapping.MappingException: No property studentModality found on entity class jose.rodriguez.everis.peru.app.models.document.Modality to bind constructor parameter to!
+	at org.springframework.data.mapping.model.PersistentEntityParameterValueProvider.getParameterValue(PersistentEntityParameterValueProvider.java:68) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mapping.model.SpELExpressionParameterValueProvider.getParameterValue(SpELExpressionParameterValueProvider.java:49) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.extractInvocationArguments(ClassGeneratingEntityInstantiator.java:250) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.createInstance(ClassGeneratingEntityInstantiator.java:223) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator.createInstance(ClassGeneratingEntityInstantiator.java:84) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:274) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readValue(MappingMongoConverter.java:1493) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1391) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:380) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:297) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:277) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:196) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:192) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:80) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.ReactiveMongoTemplate$ReadDocumentCallback.doWith(ReactiveMongoTemplate.java:2893) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:100) ~[reactor-core-3.2.12.RELEASE.jar:3.2.12.RELEASE]
+	at com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68) ~[mongodb-driver-reactivestreams-1.9.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.onNext(AbstractSubscription.java:135) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.processResultsQueue(AbstractSubscription.java:203) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.tryProcessResultsQueue(AbstractSubscription.java:159) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:101) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:136) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:100) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription.requestMoreData(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:53) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:46) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.OperationExecutorImpl$1$1.onResult(OperationExecutorImpl.java:82) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.FindOperation$3.onResult(FindOperation.java:806) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.OperationHelper$ReferenceCountedReleasingWrappedCallback.onResult(OperationHelper.java:364) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.CommandOperationHelper$2.onResult(CommandOperationHelper.java:405) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServer$DefaultServerProtocolExecutor$2.onResult(DefaultServer.java:227) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandProtocolImpl$1.onResult(CommandProtocolImpl.java:85) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultConnectionPool$PooledConnection$1.onResult(DefaultConnectionPool.java:461) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.UsageTrackingInternalConnection$2.onResult(UsageTrackingInternalConnection.java:111) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:379) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:356) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:651) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:618) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.readAsync(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.access$1000(InternalStreamConnection.java:74) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:608) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:593) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.handleReadResponse(NettyStream.java:266) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.access$600(NettyStream.java:66) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:325) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:322) ~[mongodb-driver-core-3.8.2.jar:na]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_221]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.FluxMap] :
+	reactor.core.publisher.Flux.map(Flux.java:5734)
+	org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+Error has been observed by the following operator(s):
+	|_	Flux.map ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+	|_	Mono.flatMapMany ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	FluxMap$MapSubscriber.onNext ⇢ com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68)
+	|_	Flux.onErrorMap ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	Flux.collectList ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.map ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.doOnError ⇢ org.springframework.http.server.reactive.AbstractServerHttpResponse.writeWith(AbstractServerHttpResponse.java:188)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler.handleResult(ResponseEntityResultHandler.java:130)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.lambda$handleResult$5(DispatcherHandler.java:175)
+	|_	Mono.onErrorResume ⇢ org.springframework.web.reactive.DispatcherHandler.handleResult(DispatcherHandler.java:175)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.handle(DispatcherHandler.java:152)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.flatMap ⇢ org.springframework.boot.actuate.web.trace.reactive.HttpTraceWebFilter.filter(HttpTraceWebFilter.java:74)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.doOnSuccess ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.doOnError ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.compose ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:75)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+
+27-09-2019 18:25:09.065 [nioEventLoopGroup-2-5] ERROR o.s.b.a.w.r.e.AbstractErrorWebExceptionHandler.error - [5fe8f6d5] 500 Server Error for HTTP GET "/api/everis/courses"
+org.springframework.data.mapping.MappingException: No property studentModality found on entity class jose.rodriguez.everis.peru.app.models.document.Modality to bind constructor parameter to!
+	at org.springframework.data.mapping.model.PersistentEntityParameterValueProvider.getParameterValue(PersistentEntityParameterValueProvider.java:68) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mapping.model.SpELExpressionParameterValueProvider.getParameterValue(SpELExpressionParameterValueProvider.java:49) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.extractInvocationArguments(ClassGeneratingEntityInstantiator.java:250) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.createInstance(ClassGeneratingEntityInstantiator.java:223) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator.createInstance(ClassGeneratingEntityInstantiator.java:84) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:274) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readValue(MappingMongoConverter.java:1493) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1391) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:380) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:297) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:277) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:196) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:192) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:80) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.ReactiveMongoTemplate$ReadDocumentCallback.doWith(ReactiveMongoTemplate.java:2893) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:100) ~[reactor-core-3.2.12.RELEASE.jar:3.2.12.RELEASE]
+	at com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68) ~[mongodb-driver-reactivestreams-1.9.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.onNext(AbstractSubscription.java:135) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.processResultsQueue(AbstractSubscription.java:203) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.tryProcessResultsQueue(AbstractSubscription.java:159) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:101) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:136) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:100) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription.requestMoreData(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:53) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:46) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.OperationExecutorImpl$1$1.onResult(OperationExecutorImpl.java:82) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.FindOperation$3.onResult(FindOperation.java:806) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.OperationHelper$ReferenceCountedReleasingWrappedCallback.onResult(OperationHelper.java:364) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.CommandOperationHelper$2.onResult(CommandOperationHelper.java:405) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServer$DefaultServerProtocolExecutor$2.onResult(DefaultServer.java:227) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandProtocolImpl$1.onResult(CommandProtocolImpl.java:85) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultConnectionPool$PooledConnection$1.onResult(DefaultConnectionPool.java:461) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.UsageTrackingInternalConnection$2.onResult(UsageTrackingInternalConnection.java:111) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:379) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:356) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:651) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:618) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.readAsync(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.access$1000(InternalStreamConnection.java:74) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:608) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:593) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.handleReadResponse(NettyStream.java:266) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.access$600(NettyStream.java:66) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:325) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:322) ~[mongodb-driver-core-3.8.2.jar:na]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_221]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.FluxMap] :
+	reactor.core.publisher.Flux.map(Flux.java:5734)
+	org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+Error has been observed by the following operator(s):
+	|_	Flux.map ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+	|_	Mono.flatMapMany ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	FluxMap$MapSubscriber.onNext ⇢ com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68)
+	|_	Flux.onErrorMap ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	Flux.collectList ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.map ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.doOnError ⇢ org.springframework.http.server.reactive.AbstractServerHttpResponse.writeWith(AbstractServerHttpResponse.java:188)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler.handleResult(ResponseEntityResultHandler.java:130)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.lambda$handleResult$5(DispatcherHandler.java:175)
+	|_	Mono.onErrorResume ⇢ org.springframework.web.reactive.DispatcherHandler.handleResult(DispatcherHandler.java:175)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.handle(DispatcherHandler.java:152)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.flatMap ⇢ org.springframework.boot.actuate.web.trace.reactive.HttpTraceWebFilter.filter(HttpTraceWebFilter.java:74)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.doOnSuccess ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.doOnError ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.compose ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:75)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+
+27-09-2019 18:25:09.826 [nioEventLoopGroup-2-5] ERROR o.s.b.a.w.r.e.AbstractErrorWebExceptionHandler.error - [5fe8f6d5] 500 Server Error for HTTP GET "/api/everis/courses"
+org.springframework.data.mapping.MappingException: No property studentModality found on entity class jose.rodriguez.everis.peru.app.models.document.Modality to bind constructor parameter to!
+	at org.springframework.data.mapping.model.PersistentEntityParameterValueProvider.getParameterValue(PersistentEntityParameterValueProvider.java:68) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mapping.model.SpELExpressionParameterValueProvider.getParameterValue(SpELExpressionParameterValueProvider.java:49) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.extractInvocationArguments(ClassGeneratingEntityInstantiator.java:250) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.createInstance(ClassGeneratingEntityInstantiator.java:223) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator.createInstance(ClassGeneratingEntityInstantiator.java:84) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:274) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readValue(MappingMongoConverter.java:1493) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1391) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:380) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:297) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:277) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:196) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:192) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:80) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.ReactiveMongoTemplate$ReadDocumentCallback.doWith(ReactiveMongoTemplate.java:2893) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:100) ~[reactor-core-3.2.12.RELEASE.jar:3.2.12.RELEASE]
+	at com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68) ~[mongodb-driver-reactivestreams-1.9.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.onNext(AbstractSubscription.java:135) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.processResultsQueue(AbstractSubscription.java:203) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.tryProcessResultsQueue(AbstractSubscription.java:159) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:101) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:136) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:100) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription.requestMoreData(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:53) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:46) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.OperationExecutorImpl$1$1.onResult(OperationExecutorImpl.java:82) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.FindOperation$3.onResult(FindOperation.java:806) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.OperationHelper$ReferenceCountedReleasingWrappedCallback.onResult(OperationHelper.java:364) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.CommandOperationHelper$2.onResult(CommandOperationHelper.java:405) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServer$DefaultServerProtocolExecutor$2.onResult(DefaultServer.java:227) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandProtocolImpl$1.onResult(CommandProtocolImpl.java:85) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultConnectionPool$PooledConnection$1.onResult(DefaultConnectionPool.java:461) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.UsageTrackingInternalConnection$2.onResult(UsageTrackingInternalConnection.java:111) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:379) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:356) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:651) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:618) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.readAsync(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.access$1000(InternalStreamConnection.java:74) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:608) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:593) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.handleReadResponse(NettyStream.java:266) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.access$600(NettyStream.java:66) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:325) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:322) ~[mongodb-driver-core-3.8.2.jar:na]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_221]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.FluxMap] :
+	reactor.core.publisher.Flux.map(Flux.java:5734)
+	org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+Error has been observed by the following operator(s):
+	|_	Flux.map ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+	|_	Mono.flatMapMany ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	FluxMap$MapSubscriber.onNext ⇢ com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68)
+	|_	Flux.onErrorMap ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	Flux.collectList ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.map ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.doOnError ⇢ org.springframework.http.server.reactive.AbstractServerHttpResponse.writeWith(AbstractServerHttpResponse.java:188)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler.handleResult(ResponseEntityResultHandler.java:130)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.lambda$handleResult$5(DispatcherHandler.java:175)
+	|_	Mono.onErrorResume ⇢ org.springframework.web.reactive.DispatcherHandler.handleResult(DispatcherHandler.java:175)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.handle(DispatcherHandler.java:152)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.flatMap ⇢ org.springframework.boot.actuate.web.trace.reactive.HttpTraceWebFilter.filter(HttpTraceWebFilter.java:74)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.doOnSuccess ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.doOnError ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.compose ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:75)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+
+27-09-2019 18:25:10.362 [nioEventLoopGroup-2-5] ERROR o.s.b.a.w.r.e.AbstractErrorWebExceptionHandler.error - [5fe8f6d5] 500 Server Error for HTTP GET "/api/everis/courses"
+org.springframework.data.mapping.MappingException: No property studentModality found on entity class jose.rodriguez.everis.peru.app.models.document.Modality to bind constructor parameter to!
+	at org.springframework.data.mapping.model.PersistentEntityParameterValueProvider.getParameterValue(PersistentEntityParameterValueProvider.java:68) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mapping.model.SpELExpressionParameterValueProvider.getParameterValue(SpELExpressionParameterValueProvider.java:49) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.extractInvocationArguments(ClassGeneratingEntityInstantiator.java:250) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.createInstance(ClassGeneratingEntityInstantiator.java:223) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator.createInstance(ClassGeneratingEntityInstantiator.java:84) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:274) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readValue(MappingMongoConverter.java:1493) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1391) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:380) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:297) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:277) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:196) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:192) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:80) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.ReactiveMongoTemplate$ReadDocumentCallback.doWith(ReactiveMongoTemplate.java:2893) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:100) ~[reactor-core-3.2.12.RELEASE.jar:3.2.12.RELEASE]
+	at com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68) ~[mongodb-driver-reactivestreams-1.9.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.onNext(AbstractSubscription.java:135) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.processResultsQueue(AbstractSubscription.java:203) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.tryProcessResultsQueue(AbstractSubscription.java:159) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:101) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:136) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:100) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription.requestMoreData(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:53) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:46) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.OperationExecutorImpl$1$1.onResult(OperationExecutorImpl.java:82) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.FindOperation$3.onResult(FindOperation.java:806) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.OperationHelper$ReferenceCountedReleasingWrappedCallback.onResult(OperationHelper.java:364) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.CommandOperationHelper$2.onResult(CommandOperationHelper.java:405) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServer$DefaultServerProtocolExecutor$2.onResult(DefaultServer.java:227) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandProtocolImpl$1.onResult(CommandProtocolImpl.java:85) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultConnectionPool$PooledConnection$1.onResult(DefaultConnectionPool.java:461) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.UsageTrackingInternalConnection$2.onResult(UsageTrackingInternalConnection.java:111) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:379) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:356) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:651) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:618) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.readAsync(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.access$1000(InternalStreamConnection.java:74) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:608) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:593) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.handleReadResponse(NettyStream.java:266) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.access$600(NettyStream.java:66) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:325) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:322) ~[mongodb-driver-core-3.8.2.jar:na]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_221]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.FluxMap] :
+	reactor.core.publisher.Flux.map(Flux.java:5734)
+	org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+Error has been observed by the following operator(s):
+	|_	Flux.map ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+	|_	Mono.flatMapMany ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	FluxMap$MapSubscriber.onNext ⇢ com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68)
+	|_	Flux.onErrorMap ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	Flux.collectList ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.map ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.doOnError ⇢ org.springframework.http.server.reactive.AbstractServerHttpResponse.writeWith(AbstractServerHttpResponse.java:188)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler.handleResult(ResponseEntityResultHandler.java:130)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.lambda$handleResult$5(DispatcherHandler.java:175)
+	|_	Mono.onErrorResume ⇢ org.springframework.web.reactive.DispatcherHandler.handleResult(DispatcherHandler.java:175)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.handle(DispatcherHandler.java:152)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.flatMap ⇢ org.springframework.boot.actuate.web.trace.reactive.HttpTraceWebFilter.filter(HttpTraceWebFilter.java:74)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.doOnSuccess ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.doOnError ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.compose ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:75)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+
+27-09-2019 18:25:10.776 [nioEventLoopGroup-2-5] ERROR o.s.b.a.w.r.e.AbstractErrorWebExceptionHandler.error - [5fe8f6d5] 500 Server Error for HTTP GET "/api/everis/courses"
+org.springframework.data.mapping.MappingException: No property studentModality found on entity class jose.rodriguez.everis.peru.app.models.document.Modality to bind constructor parameter to!
+	at org.springframework.data.mapping.model.PersistentEntityParameterValueProvider.getParameterValue(PersistentEntityParameterValueProvider.java:68) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mapping.model.SpELExpressionParameterValueProvider.getParameterValue(SpELExpressionParameterValueProvider.java:49) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.extractInvocationArguments(ClassGeneratingEntityInstantiator.java:250) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator$EntityInstantiatorAdapter.createInstance(ClassGeneratingEntityInstantiator.java:223) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.convert.ClassGeneratingEntityInstantiator.createInstance(ClassGeneratingEntityInstantiator.java:84) ~[spring-data-commons-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:274) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readValue(MappingMongoConverter.java:1493) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter$MongoDbPropertyValueProvider.getPropertyValue(MappingMongoConverter.java:1391) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.readProperties(MappingMongoConverter.java:380) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.populateProperties(MappingMongoConverter.java:297) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:277) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:247) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:196) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:192) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.read(MappingMongoConverter.java:80) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.data.mongodb.core.ReactiveMongoTemplate$ReadDocumentCallback.doWith(ReactiveMongoTemplate.java:2893) ~[spring-data-mongodb-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:100) ~[reactor-core-3.2.12.RELEASE.jar:3.2.12.RELEASE]
+	at com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68) ~[mongodb-driver-reactivestreams-1.9.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.onNext(AbstractSubscription.java:135) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.processResultsQueue(AbstractSubscription.java:203) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.AbstractSubscription.tryProcessResultsQueue(AbstractSubscription.java:159) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:101) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$2.onResult(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:136) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.AsyncQueryBatchCursor.next(AsyncQueryBatchCursor.java:100) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription.requestMoreData(MongoIterableSubscription.java:85) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:53) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.async.client.MongoIterableSubscription$1.onResult(MongoIterableSubscription.java:46) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.async.client.OperationExecutorImpl$1$1.onResult(OperationExecutorImpl.java:82) ~[mongodb-driver-async-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.FindOperation$3.onResult(FindOperation.java:806) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.OperationHelper$ReferenceCountedReleasingWrappedCallback.onResult(OperationHelper.java:364) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.operation.CommandOperationHelper$2.onResult(CommandOperationHelper.java:405) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServer$DefaultServerProtocolExecutor$2.onResult(DefaultServer.java:227) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandProtocolImpl$1.onResult(CommandProtocolImpl.java:85) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultConnectionPool$PooledConnection$1.onResult(DefaultConnectionPool.java:461) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.UsageTrackingInternalConnection$2.onResult(UsageTrackingInternalConnection.java:111) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:49) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:379) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$2$1.onResult(InternalStreamConnection.java:356) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:651) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback$MessageCallback.onResult(InternalStreamConnection.java:618) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.readAsync(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.access$1000(InternalStreamConnection.java:74) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:608) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$MessageHeaderCallback.onResult(InternalStreamConnection.java:593) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:494) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection$5.completed(InternalStreamConnection.java:491) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.readAsync(NettyStream.java:236) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.handleReadResponse(NettyStream.java:266) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream.access$600(NettyStream.java:66) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:325) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.connection.netty.NettyStream$InboundBufferHandler.channelRead0(NettyStream.java:322) ~[mongodb-driver-core-3.8.2.jar:na]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_221]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.FluxMap] :
+	reactor.core.publisher.Flux.map(Flux.java:5734)
+	org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+Error has been observed by the following operator(s):
+	|_	Flux.map ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$executeFindMultiInternal$66(ReactiveMongoTemplate.java:2547)
+	|_	Mono.flatMapMany ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	FluxMap$MapSubscriber.onNext ⇢ com.mongodb.reactivestreams.client.internal.ObservableToPublisher$1.onNext(ObservableToPublisher.java:68)
+	|_	Flux.onErrorMap ⇢ org.springframework.data.mongodb.core.ReactiveMongoTemplate.createFlux(ReactiveMongoTemplate.java:580)
+	|_	Flux.collectList ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.map ⇢ org.springframework.http.codec.json.AbstractJackson2Encoder.lambda$encode$5(AbstractJackson2Encoder.java:141)
+	|_	Mono.doOnError ⇢ org.springframework.http.server.reactive.AbstractServerHttpResponse.writeWith(AbstractServerHttpResponse.java:188)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.result.method.annotation.ResponseEntityResultHandler.handleResult(ResponseEntityResultHandler.java:130)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.lambda$handleResult$5(DispatcherHandler.java:175)
+	|_	Mono.onErrorResume ⇢ org.springframework.web.reactive.DispatcherHandler.handleResult(DispatcherHandler.java:175)
+	|_	Mono.flatMap ⇢ org.springframework.web.reactive.DispatcherHandler.handle(DispatcherHandler.java:152)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.flatMap ⇢ org.springframework.boot.actuate.web.trace.reactive.HttpTraceWebFilter.filter(HttpTraceWebFilter.java:74)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+	|_	Mono.doOnSuccess ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.doOnError ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:83)
+	|_	Mono.compose ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter.filter(MetricsWebFilter.java:75)
+	|_	Mono.defer ⇢ org.springframework.web.server.handler.DefaultWebFilterChain.filter(DefaultWebFilterChain.java:119)
+
+27-09-2019 18:26:03.191 [RMI TCP Connection(23)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+27-09-2019 18:26:03.194 [RMI TCP Connection(23)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry.deregister - Unregistering application SPRING-COURSES with eureka with status DOWN
+27-09-2019 18:26:03.195 [RMI TCP Connection(23)-127.0.0.1] WARN  c.netflix.discovery.DiscoveryClient.notify - Saw local status change event StatusChangeEvent [timestamp=1569626763195, current=DOWN, previous=UP]
+27-09-2019 18:26:03.195 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_SPRING-COURSES/LIM-FLTWM72.usersad.everis.int:spring-courses:8081: registering service...
+27-09-2019 18:26:03.203 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_SPRING-COURSES/LIM-FLTWM72.usersad.everis.int:spring-courses:8081 - registration status: 204
+27-09-2019 18:26:03.295 [RMI TCP Connection(23)-127.0.0.1] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:4, serverValue:7}] to localhost:27017 because the pool has been closed.
+27-09-2019 18:26:03.300 [RMI TCP Connection(23)-127.0.0.1] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:5, serverValue:8}] to localhost:27017 because the pool has been closed.
+27-09-2019 18:26:03.306 [RMI TCP Connection(23)-127.0.0.1] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:3, serverValue:6}] to localhost:27017 because the pool has been closed.
+27-09-2019 18:26:03.313 [RMI TCP Connection(23)-127.0.0.1] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:7, serverValue:10}] to localhost:27017 because the pool has been closed.
+27-09-2019 18:26:03.316 [RMI TCP Connection(23)-127.0.0.1] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:6, serverValue:9}] to localhost:27017 because the pool has been closed.
+27-09-2019 18:26:05.664 [RMI TCP Connection(23)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+27-09-2019 18:26:08.670 [RMI TCP Connection(23)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient.unregister - Unregistering ...
+27-09-2019 18:26:08.690 [RMI TCP Connection(23)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient.unregister - DiscoveryClient_SPRING-COURSES/LIM-FLTWM72.usersad.everis.int:spring-courses:8081 - deregister  status: 200
+27-09-2019 18:26:08.711 [RMI TCP Connection(23)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+27-09-2019 18:26:23.164 [restartedMain] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-09-2019 18:26:24.814 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+27-09-2019 18:26:24.899 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 80ms. Found 2 repository interfaces.
+27-09-2019 18:26:24.905 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+27-09-2019 18:26:24.917 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+27-09-2019 18:26:25.083 [restartedMain] WARN  o.s.boot.actuate.endpoint.EndpointId.logWarning - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+27-09-2019 18:26:25.109 [restartedMain] WARN  o.s.boot.actuate.endpoint.EndpointId.logWarning - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+27-09-2019 18:26:25.446 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=7732c652-89d3-3803-8534-14bdcef291d0
+27-09-2019 18:26:25.873 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$845a546d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+27-09-2019 18:26:27.275 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+27-09-2019 18:26:28.492 [restartedMain] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+27-09-2019 18:26:28.555 [cluster-ClusterId{value='5d8e9aa4ac185a3798ee26a7', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:11}] to localhost:27017
+27-09-2019 18:26:28.568 [cluster-ClusterId{value='5d8e9aa4ac185a3798ee26a7', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6760667}
+27-09-2019 18:26:29.260 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+27-09-2019 18:26:29.676 [cluster-ClusterId{value='5d8e9aa3ac185a3798ee26a6', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:12}] to localhost:27017
+27-09-2019 18:26:29.681 [cluster-ClusterId{value='5d8e9aa3ac185a3798ee26a6', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4257212}
+27-09-2019 18:26:33.023 [restartedMain] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+27-09-2019 18:26:33.024 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+27-09-2019 18:26:33.040 [restartedMain] INFO  c.n.config.DynamicPropertyFactory.getInstance - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@23a7527e
+27-09-2019 18:26:33.288 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+27-09-2019 18:26:33.521 [restartedMain] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+27-09-2019 18:26:33.522 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+27-09-2019 18:26:36.857 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+27-09-2019 18:26:36.939 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+27-09-2019 18:26:37.064 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+27-09-2019 18:26:37.065 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+27-09-2019 18:26:37.335 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+27-09-2019 18:26:37.336 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+27-09-2019 18:26:37.750 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+27-09-2019 18:26:38.530 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Disable delta property : false
+27-09-2019 18:26:38.531 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Single vip registry refresh property : null
+27-09-2019 18:26:38.531 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Force full registry fetch : false
+27-09-2019 18:26:38.532 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Application is null : false
+27-09-2019 18:26:38.533 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Registered Applications size is zero : true
+27-09-2019 18:26:38.533 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Application version is -1: true
+27-09-2019 18:26:38.534 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - Getting all instance registry info from the eureka server
+27-09-2019 18:26:38.697 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - The response status is 200
+27-09-2019 18:26:38.701 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.initScheduledTasks - Starting heartbeat executor: renew interval is: 30
+27-09-2019 18:26:38.704 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator.<init> - InstanceInfoReplicator onDemand update allowed rate per min is 4
+27-09-2019 18:26:38.710 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1569626798709 with initial instances count: 1
+27-09-2019 18:26:38.714 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application SPRING-COURSES with eureka with status UP
+27-09-2019 18:26:38.715 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.notify - Saw local status change event StatusChangeEvent [timestamp=1569626798715, current=UP, previous=STARTING]
+27-09-2019 18:26:38.718 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_SPRING-COURSES/LIM-FLTWM72.usersad.everis.int:spring-courses:8081: registering service...
+27-09-2019 18:26:38.719 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Documentation plugins bootstrapped
+27-09-2019 18:26:38.734 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.bootstrapDocumentationPlugins - Found 1 custom documentation plugin(s)
+27-09-2019 18:26:38.752 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_SPRING-COURSES/LIM-FLTWM72.usersad.everis.int:spring-courses:8081 - registration status: 204
+27-09-2019 18:26:38.791 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+27-09-2019 18:26:39.393 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_1
+27-09-2019 18:26:39.475 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_2
+27-09-2019 18:26:39.564 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_3
+27-09-2019 18:26:40.071 [restartedMain] INFO  o.s.b.w.e.netty.NettyWebServer.start - Netty started on port(s): 8081
+27-09-2019 18:26:40.075 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8081
+27-09-2019 18:26:41.085 [restartedMain] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.logStarted - Started SpringBootProyectoEverisCoursesApplication in 24.041 seconds (JVM running for 26.47)
+27-09-2019 18:26:41.147 [nioEventLoopGroup-2-2] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:3, serverValue:13}] to localhost:27017
+27-09-2019 18:26:41.147 [nioEventLoopGroup-2-3] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:4, serverValue:14}] to localhost:27017
+27-09-2019 18:26:41.222 [nioEventLoopGroup-2-5] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:6, serverValue:16}] to localhost:27017
+27-09-2019 18:26:41.226 [nioEventLoopGroup-2-6] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:7, serverValue:17}] to localhost:27017
+27-09-2019 18:26:41.237 [nioEventLoopGroup-2-4] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:5, serverValue:15}] to localhost:27017
+27-09-2019 18:26:41.663 [nioEventLoopGroup-2-5] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$1 - Modalidad  : listeningFamily
+27-09-2019 18:26:41.670 [nioEventLoopGroup-2-6] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$1 - Modalidad  : student
+27-09-2019 18:26:41.672 [nioEventLoopGroup-2-6] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$1 - Modalidad  : listeningTeacher
+27-09-2019 18:26:42.100 [nioEventLoopGroup-2-3] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$3 - insert : Ruby
+27-09-2019 18:26:42.102 [nioEventLoopGroup-2-3] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$3 - insert : C#
+27-09-2019 18:26:42.103 [nioEventLoopGroup-2-3] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$3 - insert : Java
+27-09-2019 18:26:42.104 [nioEventLoopGroup-2-3] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$3 - insert : Java
+27-09-2019 18:26:42.105 [nioEventLoopGroup-2-3] INFO  j.r.e.p.a.SpringBootProyectoEverisCoursesApplication.lambda$3 - insert : Angular
