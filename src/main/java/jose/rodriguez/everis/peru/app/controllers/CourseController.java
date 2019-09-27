@@ -1,5 +1,6 @@
 package jose.rodriguez.everis.peru.app.controllers;
 
+
 import java.net.URI;
 import jose.rodriguez.everis.peru.app.models.document.Course;
 import jose.rodriguez.everis.peru.app.service.CourseService;
@@ -31,6 +32,8 @@ public class CourseController {
   /**
    * . Método listar coment
    */
+ 
+  
   @GetMapping
   public Mono<ResponseEntity<Flux<Course>>> findAll() {
     return Mono.just(
@@ -41,6 +44,10 @@ public class CourseController {
 
 
   }
+  
+  
+  
+ 
 
   /**
    * . a Método crear
@@ -84,12 +91,13 @@ public class CourseController {
   @PutMapping("/{id}")
   public Mono<ResponseEntity<Course>> update(@RequestBody Course course, @PathVariable String id) {
     return service.findById(id).flatMap(t -> {
-      t.setNombre(course.getNombre());
+      t.setCourseName(course.getCourseName());
+      t.setName(course.getName());
       t.setStartDate(course.getStartDate());
       t.setEndDate(course.getEndDate());
       t.setModality(course.getModality());
       return service.save(t);
-    }).map(p -> ResponseEntity.created(URI.create("/api/everis/openings/"
+    }).map(p -> ResponseEntity.created(URI.create("/api/everis/courses/"
         .concat(p.getId()))).body(p))
         .defaultIfEmpty(ResponseEntity.notFound().build());
 

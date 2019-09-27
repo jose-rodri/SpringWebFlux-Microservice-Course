@@ -48,24 +48,25 @@ public class SpringBootProyectoEverisCoursesApplication implements CommandLineRu
     mongoTemplate.dropCollection("courses").subscribe();
     mongoTemplate.dropCollection("modalities").subscribe();
 
+   
     Modality student = new Modality("student");
     Modality listeningFamily = new Modality("listeningFamily");
     Modality listeningTeacher = new Modality("listeningTeacher");
-
     Flux.just(student, listeningFamily, listeningTeacher).flatMap(c -> service.savemodality(c))
+  
         .doOnNext(c -> {
           log.info("Modalidad  : " + c.getStudentModality());
 
         }).thenMany(
 
-            Flux.just(new Course("Arturo", new Date(), new Date(), student),
-                new Course("Leonela", new Date(), new Date(), listeningFamily),
-                new Course("Nestor", new Date(), new Date(), student),
-                new Course("Oscar", new Date(), new Date(), listeningTeacher),
-                new Course("Kenyo", new Date(), new Date(), student)).flatMap(op -> {
+            Flux.just(new Course("Java","Arturo", new Date(), new Date(), student),
+                new Course("C#","Leonela", new Date(), new Date(), listeningFamily),
+                new Course("Angular","Nestor", new Date(), new Date(), student),
+                new Course("Java","Oscar", new Date(), new Date(), listeningTeacher),
+                new Course("Ruby","Kenyo", new Date(), new Date(), student)).flatMap(op -> {
                   return service.save(op);
                 }))
-        .subscribe(op -> log.info("insert : " + op.getNombre()));
+        .subscribe(op -> log.info("insert : " + op.getCourseName()));
 
 
 
